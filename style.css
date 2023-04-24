@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Anuphan', sans-serif;
+    /* color: black; */
 }
 
 .header{
@@ -94,7 +95,7 @@ nav.fa{
     }
     
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -452,3 +453,82 @@ about us page */
         font-size: 18px;
     }
 }
+/* 
+contact us page */
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10x;
+    margin-right: 30px;
+}
+
+
+.contact-col div p {
+    padding: 0;
+    margin-left: 30px;
+    color: black;
+}
+.contact-col h5{
+    color: black;
+    margin-left: 30px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+    color: black;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1 px solid #ccc;
+    box-sizing: border-box;
+}
+@media(max-width: 700px){
+    .contact-col h5{
+        font-size: 14px;
+    }
+}
+.home-icon{
+    font-size: 30px;
+}
+.phone-icon {
+    font-size: 30px;
+}
+.envelope-icon{
+    font-size: 30px;
+
+}
+/*
+.black{
+    color: black;
+} */
